@@ -662,6 +662,32 @@ summary {
   }
 }
 
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo__cap {
+  position: relative;
+}
+
+.logo__text {
+  position: absolute;
+  top: 30px;
+}
+
+.logo__butterfly {
+  position: absolute;
+  top: 60px;
+}
+
 .header {
   background-color: #f7ebe5;
 }
@@ -680,6 +706,7 @@ summary {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-bottom: 10px;
 }
 
 .burger-menu__btn {

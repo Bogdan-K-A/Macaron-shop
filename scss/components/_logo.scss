@@ -1,0 +1,19 @@
+.logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	&__cap {
+		position: relative;
+	}
+
+	&__text {
+		position: absolute;
+		top: 30px;
+	}
+
+	&__butterfly {
+		position: absolute;
+		top: 60px;
+	}
+}
