@@ -1,5 +1,14 @@
+// common
 @import "./common/normalize";
+@import "./common/fonts";
+@import "./common/container";
+
+// utils
+@import "./utils/variables";
+
+// components
 @import "./components/button";
+
+// layouts
 @import "./layouts/header";
 @import "./layouts/hero";
-@import "./utils/variables";
